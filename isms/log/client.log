@@ -1,0 +1,522 @@
+Tue, 15 Jul 2014 15:55:16 DEBUG    Connecting to database
+
+Tue, 15 Jul 2014 15:55:16 DEBUG    Retieving ip addres
+
+Tue, 15 Jul 2014 15:55:16 INFO     No matching generator found in the database
+
+Tue, 15 Jul 2014 15:55:16 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 10:11:36 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:11:36 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 10:11:37 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 10:11:37 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 10:12:06 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:12:06 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 10:12:51 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:12:51 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 10:12:51 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:12:51 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 10:13:28 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:13:28 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 10:13:28 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 10:13:28 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 10:13:28 INFO     IP address couldn't be retrieved
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:18:16 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:18:16 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:18:16 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 12:18:16 INFO     Sending POST Request to alert generator HIDS
+
+Wed, 16 Jul 2014 12:18:16 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:18:42 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:18:42 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 12:18:42 INFO     Sending POST Request to alert generator HIDS
+
+Wed, 16 Jul 2014 12:18:42 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 12:18:42 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:19:40 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:19:40 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 12:19:40 INFO     Sending POST Request to alert generator HIDS
+
+Wed, 16 Jul 2014 12:19:40 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 12:19:40 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 12:19:40 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:20:05 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 12:20:05 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 12:20:05 INFO     Sending POST Request to alert generator HIDS
+
+Wed, 16 Jul 2014 12:20:05 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 12:20:05 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 12:20:05 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 13:52:45 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 13:52:45 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 13:52:45 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 13:52:45 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 13:52:45 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 13:52:45 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 14:09:21 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 14:09:21 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 14:09:21 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 14:09:21 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 14:09:21 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 14:09:21 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 14:09:21 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 14:09:21 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 14:09:21 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 14:09:57 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 14:09:57 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 14:09:57 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 14:09:57 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 14:09:57 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 14:09:57 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 14:09:57 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 14:09:57 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 14:09:57 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 14:10:29 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 14:10:29 ERROR    Database not running
+Traceback (most recent call last):
+  File "client.py", line 8, in get_ip
+    conn = psycopg2.connect(database="alertcollector",user="isms",password="isms@123")
+  File "/usr/lib64/python2.6/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+Wed, 16 Jul 2014 14:10:29 INFO     IP address couldn't be retrieved
+
+Wed, 16 Jul 2014 15:14:56 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:14:56 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:14:56 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:14:56 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:14:56 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:14:56 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:14:56 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:14:56 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:14:56 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:16:44 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:16:44 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:16:44 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:16:44 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:16:44 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:16:44 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:16:44 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:16:44 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:16:44 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:18:21 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:18:21 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:18:21 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:18:21 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:18:21 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:18:21 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:18:21 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:18:21 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:18:21 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:00 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:19:00 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:19:00 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:19:00 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:19:00 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:00 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:00 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:00 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:19:00 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:25 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:19:25 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:19:25 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:19:25 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:19:25 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:25 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:25 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:25 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:19:25 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:57 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:19:57 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:19:57 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:19:57 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:19:57 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:57 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:19:57 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:19:58 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:19:58 INFO     Recieved confirmation for alert generator HIDS
+
+Wed, 16 Jul 2014 15:22:37 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:22:37 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:22:37 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:22:37 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:22:37 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:22:37 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:22:38 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:22:38 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:22:38 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:23:36 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:23:36 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:23:36 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:23:36 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:23:36 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:23:36 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:23:36 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:23:36 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:23:36 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:24:08 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:24:08 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:24:08 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:24:08 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:24:08 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:24:08 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:24:08 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:24:08 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:24:08 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:24:36 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:24:36 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:24:36 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:24:36 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:24:36 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:24:36 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:24:36 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:24:36 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:24:36 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:25:11 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:25:11 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:25:11 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:25:11 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:25:11 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:25:11 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:25:11 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:25:11 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:25:11 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:26:03 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:26:03 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:26:03 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:26:03 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:26:03 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:26:03 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:26:03 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:26:03 DEBUG    "POST /instance/ HTTP/1.1" 500 None
+
+Wed, 16 Jul 2014 15:26:03 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 15:27:01 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 15:27:01 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 15:27:01 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 15:27:01 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 15:27:01 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 15:27:01 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 15:27:01 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 15:27:01 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 15:27:01 INFO     Recieved response from alert generator HIDS
+
+Wed, 16 Jul 2014 17:37:51 DEBUG    Connecting to database
+
+Wed, 16 Jul 2014 17:37:51 DEBUG    Retieving ip address
+
+Wed, 16 Jul 2014 17:37:51 INFO     IP address retrieved
+
+Wed, 16 Jul 2014 17:37:51 DEBUG    Connection to database closed
+
+Wed, 16 Jul 2014 17:37:51 DEBUG    IP address retrieved 127.0.0.1
+
+Wed, 16 Jul 2014 17:37:51 INFO     Sending POST Request to instantiate alert generator HIDS
+
+Wed, 16 Jul 2014 17:37:51 INFO     Starting new HTTP connection (1): 127.0.0.1
+
+Wed, 16 Jul 2014 17:37:51 DEBUG    "POST /instance/ HTTP/1.1" 200 None
+
+Wed, 16 Jul 2014 17:37:51 INFO     Recieved response from alert generator HIDS
+
+Thu, 17 Jul 2014 10:19:10 DEBUG    Connecting to database
+
+Thu, 17 Jul 2014 10:19:39 DEBUG    Connecting to database
+
+Thu, 17 Jul 2014 10:19:39 DEBUG    Retieving ip address
+
+Thu, 17 Jul 2014 10:19:39 INFO     IP address retrieved
+
+Thu, 17 Jul 2014 10:19:39 DEBUG    Connection to database closed
+
+Thu, 17 Jul 2014 10:19:54 DEBUG    Connecting to database
+
+Thu, 17 Jul 2014 10:19:54 DEBUG    Retieving ip address
+
+Thu, 17 Jul 2014 10:19:54 INFO     IP address retrieved
+
+Thu, 17 Jul 2014 10:19:54 DEBUG    Connection to database closed
+
